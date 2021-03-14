@@ -24,9 +24,14 @@ double square_root(double sq_rt)
     return sqrt;
 }
 
-/*double cube_root(double cb_rt)
-{
-    return cbrt(cb_rt);
-}*/
+double cube_root(double cb_rt) {
+   double cbrt, precision = 0.000001;
+   
+   for(cbrt = 1; (cbrt*cbrt*cbrt) <= cb_rt; ++cbrt);         //Integer part
+
+   for(--cbrt; (cbrt*cbrt*cbrt) < cb_rt; cbrt += precision);  //Fractional part
+   
+   return cbrt;
+}
 
 
