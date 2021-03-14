@@ -2,8 +2,6 @@
 #include <operations.h>
 #include <conversion.h>
 #include <calculator_operations.h>
-#include <inbuild_functions.h>
-float inbuild_functions(int func);
 int main()
 {
     int highlevel;
@@ -146,14 +144,6 @@ int main()
                 printf("Cube root of the number is %lf",cube_root(cu_rtt));
                 break;
             }
-        }
-
-        case 4:
-        {
-            printf("Press 1");
-            int sec;
-            scanf("%d",&sec);
-            inbuild_functions(sec);
         }
 
     }
