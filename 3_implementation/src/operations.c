@@ -11,7 +11,7 @@ double cube1(double cu)
     return cu*cu*cu;
 }
 
-/*double square_root(double sq_rt)
+double square_root(double sq_rt)
 {
     return sqrt(sq_rt);
 }
@@ -19,6 +19,6 @@ double cube1(double cu)
 double cube_root(double cb_rt)
 {
     return cbrt(cb_rt);
-}*/
+}
 
 
