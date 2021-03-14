@@ -8,7 +8,6 @@ BUILD = build
 SRC = project_main.c\
 src/calculator_operations.c\
 src/conversion.c\
-src/inbuild_functions.c\
 src/operations.c\
 
 
@@ -16,7 +15,6 @@ src/operations.c\
 TEST_SRC = src/calculator_operations.c\
 test/test_calculator_operations.c\
 src/conversion.c\
-src/inbuild_functions.c\
 src/operations.c\
 unity/unity.c\
 
