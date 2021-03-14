@@ -142,8 +142,8 @@ int main()
                 printf("Enter a number: ");
                 scanf("%lf",&cu_rtt);
                 printf("Cube root of the number is %lf",cube_root(cu_rtt));
-                break;*/
-            }
+                break;
+            }*/
         }
 
     }
