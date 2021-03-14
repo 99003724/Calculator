@@ -128,7 +128,7 @@ int main()
                 printf("Cube of the number is %lf",cube1(cuu));
                 break;
             }        
-            /*else if(select_function==3)
+            else if(select_function==3)
             {
                 double sq_rtt;
                 printf("Enter a number: ");
@@ -143,7 +143,7 @@ int main()
                 scanf("%lf",&cu_rtt);
                 printf("Cube root of the number is %lf",cube_root(cu_rtt));
                 break;
-            }*/
+            }
         }
 
     }
