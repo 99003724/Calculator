@@ -29,7 +29,7 @@ double cube1(double cu);
 * @param[in] sq_rt
 * @return Result of sqrt(sq_rt)
 */
-//double square_root(double sq_rt);
+double square_root(double sq_rt);
 
 
 /**
@@ -38,7 +38,7 @@ double cube1(double cu);
 * @return integer value of the operand1 / operand2
 * @note returns 0 for divide by 0 error
 */
-//double cube_root(double cu_rt);
+double cube_root(double cu_rt);
 
 
 /**
