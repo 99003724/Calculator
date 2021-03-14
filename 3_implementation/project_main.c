@@ -136,14 +136,14 @@ int main()
                 printf("Square root of the number is %lf", square_root(sq_rtt));
                 break;            
             }
-            /*else if(select_function==4)
+            else if(select_function==4)
             {
                 double cu_rtt;
                 printf("Enter a number: ");
                 scanf("%lf",&cu_rtt);
                 printf("Cube root of the number is %lf",cube_root(cu_rtt));
                 break;
-            }*/
+            }
         }
 
     }
